@@ -1,32 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pilotage RFX</title> <!-- Titre de la page -->
+< !DOCTYPE html>
+<html lang="fr">
+<tête>
+    <méta charset="UTF-8">
+    <méta nom="port de vue" contenu="largeur=device-largeur, échelle initiale=1.0">
+    <titre>Pilotage RFX</titre> <!-- Titre de la page -->
     <style>
-        body { margin: 0; overflow: hidden; }
-        canvas { display: block; }
+        corps { 
+            marge: 0; 
+            débordement: caché; 
+            couleur d'arrivée-plan: noir; /* Fond noir pour mieux voir la scène */
+        }
+        toile { 
+            affichage: bloc; 
+        }
         h1 {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            font-size: 2em;
-            color: white;
-            z-index: 1;
+            position: absolus;
+            haut: 20px;
+            gauche: 20px;
+            taille de la police: 2em;
+            couleur: blanc;
+            indice z: 10;
         }
     </style>
-</head>
-<body>
-    <!-- Ajouter un titre visible sur la page -->
-    <h1>Pilotage RFX</h1> <!-- Titre visible sur la page -->
-    
+</tête>
+<corps>
+    <!-- Titre visible sur la page -->
+    <h1>Pilotage RFX</h1> <!-- Titre qui apparaît sur la page -->
+
     <!-- Inclusion des bibliothèques nécessaires -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://threejs.org/examples/js/loaders/GLTFLoader.js"></script>
     <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
 
-    <!-- Script personnalisé -->
-    <script src="script.js"></script>
-</body>
+    <!-- Scénario personalalisé -->
+    <script src="script.js"></script> <!-- Assurez-vous que le fichier script.js est bien dans le monde dossier -->
+</corps>
 </html>
