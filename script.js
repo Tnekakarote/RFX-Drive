@@ -33,3 +33,4 @@ fonction animateur() {
 }
 animateur();
 
+import * as THREE from 'three';
